@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Postavljanje karakter seta na UTF-8 -->
+    <meta charset="UTF-8">
+
+    <!-- Podešavanje viewport-a za pravilno prikazivanje na različitim uređajima -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Naslov stranice -->
+    <title>Profilna Kartica</title>
+
+    <!-- Povezivanje sa eksternim CSS fajlom -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Povezivanje sa bibliotekom boxicons za ikone -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Kontejner za profilnu karticu -->
+    <div class="profile-card">
+
+        <!-- Sekcija za prikaz slike profila -->
+        <div class="image">
+            <img src="profile.jpg" alt="" class="profile-img">
+        </div>
+
+        <!-- Sekcija za tekstualne podatke (ime i zanimanje) -->
+        <div class="text-data">
+            <span class="name">Haris</span>
+            <span class="job">Softverski Razvijatelj</span>
+        </div>
+
+        <!-- Sekcija za dugmadi za društvene mreže -->
+        <div class="media-buttons">
+            <a href="#" style="background: #4267b2" class="link">
+                <i class='bx bxl-facebook'></i>
+            </a>
+
+            <a href="#" style="background: #1da1f2" class="link">
+                <i class='bx bxl-twitter' ></i>          
+            </a>
+
+            <a href="#" style="background: #e1306c" class="link">
+                <i class='bx bxl-instagram' ></i>
+            </a>
+
+            <a href="#" style="background: #ff0000" class="link">
+                <i class='bx bxl-youtube' ></i>
+            </a>
+        </div>
+
+        <!-- Sekcija za dugmad (pretplati se, pošalji poruku) -->
+        <div class="buttons">
+            <button class="button">Pretplati se</button>
+            <button class="button">Pošalji poruku</button>
+        </div>
+
+        <!-- Sekcija za analitiku (broj srca, broj komentara, broj deljenja) -->
+        <div class="analytics">
+            <div class="data">
+                <i class='bx bx-heart'></i>
+                <span class="number">60k</span>
+            </div>
+
+            <div class="data">
+                <i class='bx bx-message-rounded'></i>               
+                <span class="number">20k</span>
+            </div>
+
+            <div class="data">
+                <i class='bx bx-share' ></i>         
+                <span class="number">12k</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
